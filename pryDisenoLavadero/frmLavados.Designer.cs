@@ -78,7 +78,7 @@
             // 
             cboServicio.FormattingEnabled = true;
             cboServicio.Items.AddRange(new object[] { "Lavado con encerado", "Lavado Completo", "Lavado Exterior" });
-            cboServicio.Location = new Point(165, 114);
+            cboServicio.Location = new Point(156, 117);
             cboServicio.Name = "cboServicio";
             cboServicio.Size = new Size(190, 23);
             cboServicio.TabIndex = 2;
@@ -267,7 +267,6 @@
             Name = "frmLavados";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Lavadero Los Andes - Calculo del servicio";
-            Load += frmLavados_Load;
             gpbDatos.ResumeLayout(false);
             gpbDatos.PerformLayout();
             gpbEntrega.ResumeLayout(false);
